@@ -1,0 +1,838 @@
+{
+  "version": "1.0",
+  "purpose": "Public literature curation and falsifiable preclinical prioritization; no patient data, experiments or efficacy estimates.",
+  "sources": [
+    {
+      "id": "M01",
+      "study_family_id": "doi:10.1158/0008-5472.can-09-4319",
+      "title": "Molecular Causes for BUBR1 Dysfunction in the Human Cancer Predisposition Syndrome Mosaic Variegated Aneuploidy",
+      "url": "https://doi.org/10.1158/0008-5472.CAN-09-4319",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "Checkpoint response recovered with wild-type complementation and abundance restoration for selected unstable mutants; stable alleles could separate checkpoint and alignment functions.",
+      "limitation": "Allele selection and transformed cells limit transfer; HSP90 inhibition destabilized mutants. No therapeutic drug rescue established.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.hubrecht.eu/app/uploads/2015/08/Kops_Research_2010_Suijkerbuijk_Molecular-Causes-for-BUBR1-Dysfunction-in-the-Human-Cancer-Predisposition-Syndrome-Mosaic-Variegated-Aneuploidy.pdf"
+    },
+    {
+      "id": "M02",
+      "study_family_id": "doi:10.1172/jci126863",
+      "title": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome",
+      "url": "https://www.jci.org/articles/view/126863",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "Similar protein reductions accompanied distinct phenotypes; some muscle phenotypes correlated with mTORC1 hyperactivity.",
+      "limitation": "Species and allele effects; no mTOR-drug rescue demonstrated. Correction concerns Figure 2E lymphoma image/method; this review does not use that panel.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.jci.org/articles/view/126863"
+    },
+    {
+      "id": "M03",
+      "study_family_id": "doi:10.1016/j.devcel.2012.09.005",
+      "title": "Integration of Kinase and Phosphatase Activities by BUBR1 Ensures Formation of Stable Kinetochore-Microtubule Attachments",
+      "url": "https://doi.org/10.1016/j.devcel.2012.09.005",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "KARD phosphorylation promoted PP2A-B56 recruitment and attachments; inhibiting Aurora B reverted the attachment defect.",
+      "limitation": "Engineered cellular attachment endpoint; not demonstration of safe long-term segregation rescue. Global phosphatase or kinase modulation is not equivalent to local balanced recruitment.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.hubrecht.eu/app/uploads/2015/08/Kops_Research_2012_Suijkerbuijk_Integration-of-kinase-and-phosphatase-activities-by-BUBR1-ensures-formation-of-stable-kinetochore-microtubule-attachments.pdf"
+    },
+    {
+      "id": "M04",
+      "study_family_id": "doi:10.1016/j.celrep.2020.108397",
+      "title": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment",
+      "url": "https://doi.org/10.1016/j.celrep.2020.108397",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "Perturbations impaired KARD phosphorylation, PP2A recruitment and checkpoint silencing; chromosome alignment errors increased.",
+      "limitation": "A structural/regulatory domain contribution complicates claims of kinase-domain dispensability; engineered constructs and expression levels limit allele extrapolation.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.researchgate.net/publication/347785117_BUBR1_Pseudokinase_Domain_Promotes_Kinetochore_PP2A-B56_Recruitment_Spindle_Checkpoint_Silencing_and_Chromosome_Alignment"
+    },
+    {
+      "id": "M05",
+      "study_family_id": "doi:10.15252/embj.201386907",
+      "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan",
+      "url": "https://link.springer.com/article/10.15252/embj.201386907",
+      "source_type": "primary_study",
+      "evidence_access": "abstract",
+      "observation": "Abstract reports increased BubR1 abundance with SIRT2 overexpression or NMN; SIRT2 overexpression increased median survival, more strongly in males.",
+      "limitation": "Only abstract/synopsis inspected; NMN abundance result must not be called NMN survival or human mutant rescue. Exposure bridge unresolved.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://link.springer.com/article/10.15252/embj.201386907"
+    },
+    {
+      "id": "M06",
+      "study_family_id": "doi:10.1038/ncb2643",
+      "title": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan",
+      "url": "https://doi.org/10.1038/ncb2643",
+      "source_type": "primary_study",
+      "evidence_access": "abstract",
+      "observation": "Reported genomic protection and reduced tumorigenesis; original figure legend reports correction of hypomorphic growth/aging phenotypes.",
+      "limitation": "Genetic overexpression is not pharmacological stabilization of mutant protein; complete methods were not accessible.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.researchgate.net/publication/233930663_Increased_expression_of_BubR1_protects_against_aneuploidy_and_cancer_and_extends_healthy_lifespan"
+    },
+    {
+      "id": "M07",
+      "study_family_id": "doi:10.1038/nature10600",
+      "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders",
+      "url": "https://doi.org/10.1038/nature10600",
+      "source_type": "primary_study",
+      "evidence_access": "abstract",
+      "observation": "Removal of p16-positive cells delayed selected tissue deterioration; later clearance attenuated progression.",
+      "limitation": "Requires engineered transgene; not proof for a conventional senolytic, chromosome correction or developmental reversal.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.researchgate.net/publication/51765316_Clearance_of_P16Ink4a-positive_senescent_cells_delays_ageing-associated_disorders"
+    },
+    {
+      "id": "M08",
+      "study_family_id": "doi:10.3389/fcell.2023.1282182",
+      "title": "P53 independent pathogenic mechanisms contribute to BubR1 microcephaly",
+      "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1282182/full",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "DNA damage and residual cell death persisted; later cortical and neuronal rescue was limited and varied by endpoint.",
+      "limitation": "Near-complete developmental loss differs from partial deficiency; DNA-damage origin remains unresolved. Downstream suppression did not provide broad rescue.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1282182/full"
+    },
+    {
+      "id": "M09",
+      "study_family_id": "doi:10.1038/ng.3883",
+      "title": "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation",
+      "url": "https://doi.org/10.1038/ng.3883",
+      "source_type": "primary_study",
+      "evidence_access": "full text",
+      "observation": "Restoring TRIP13 rescued chromosome instability and checkpoint defects in deficient cells.",
+      "limitation": "Alternative etiology evidence only; no alternative finding asserted for the current hypothesis and no BUB1B-drug rescue.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/mechanism_sources.json",
+      "inspected_url": "https://www.hubrecht.eu/app/uploads/2015/08/Kops_Research_2017_Yost_Biallelic-TRIP13-mutations-predispose-to-Wilms-tumor-and-chromosome-missegregation.pdf"
+    },
+    {
+      "id": "P02",
+      "study_family_id": "doi:10.1038/ncb3195",
+      "title": "MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation",
+      "url": "https://eriba.umcg.nl/wp-content/uploads/2016/01/Demaria-2015-07-06-Nat-Cell-Biol.pdf",
+      "source_type": "primary_study",
+      "evidence_access": "Full primary PDF via author institution; relevant text and figure legends inspected",
+      "observation": "Reduced IL1A translation and SASP; Figure 6 separates secretory suppression from persistent senescence arrest.",
+      "limitation": "No segregation rescue or BUB1B disease-model rescue established.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://eriba.umcg.nl/wp-content/uploads/2016/01/Demaria-2015-07-06-Nat-Cell-Biol.pdf"
+    },
+    {
+      "id": "P03",
+      "study_family_id": "regulatory-sirolimus",
+      "title": "Rapamune EPAR and product information",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/rapamune-epar-product-information_en.pdf",
+      "source_type": "regulator_label",
+      "evidence_access": "Current EMA EPAR webpage and full product information PDF",
+      "observation": "EU authorization: specified renal transplantation prophylaxis and sporadic LAM; EPAR updated 2026-06-04.",
+      "limitation": "Approval is not for BUB1B disease; adult transplant exposure includes co-medication context.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://www.ema.europa.eu/en/documents/product-information/rapamune-epar-product-information_en.pdf"
+    },
+    {
+      "id": "P04",
+      "study_family_id": "regulatory-sirolimus",
+      "title": "Rapamune US prescribing information (2020 archived FDA label)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021083s067,021110s085lbl.pdf",
+      "source_type": "regulator_label",
+      "evidence_access": "Full FDA label PDF",
+      "observation": "Approximately 92% plasma protein binding; blood/plasma ratio 36 ±18.",
+      "limitation": "Archived label used for PK, not sole proof of current approval; whole blood cannot stand for unbound target-tissue concentration.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021083s067,021110s085lbl.pdf"
+    },
+    {
+      "id": "P05",
+      "study_family_id": "label:P05",
+      "title": "Metformin hydrochloride tablet US DailyMed label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ec3a9070-3745-41fb-b610-8d06129d8fd9",
+      "source_type": "regulator_label",
+      "evidence_access": "Full DailyMed label, updated 2025-07-01; sections 1 and 12.3 inspected",
+      "observation": "Type 2 diabetes glycemic-control indication in adults and children age 10+; usual steady-state plasma <1 microgram/mL; negligible protein binding.",
+      "limitation": "No BUB1B indication. Not a tissue concentration or universal exposure ceiling.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ec3a9070-3745-41fb-b610-8d06129d8fd9"
+    },
+    {
+      "id": "P06",
+      "study_family_id": "doi:10.1111/acel.12075",
+      "title": "Metformin inhibits the senescence-associated secretory phenotype by interfering with IKK/NF-kappaB activation",
+      "url": "https://www.mcgill.ca/pollak-lab/files/pollak-lab/metformin_inhibits_the_senescence-associated_secretory_phenotype_by_interfering_with_ikk.pdf",
+      "source_type": "primary_study",
+      "evidence_access": "Full primary PDF at author institution, Figure 2 and methods inspected",
+      "observation": "Figure 2 cytokine transcript suppression at 1, 2.5 and 5 mM, with proliferation-marker control.",
+      "limitation": "Nominal millimolar exposure does not bridge to usual human plasma; not BUB1B rescue.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://www.mcgill.ca/pollak-lab/files/pollak-lab/metformin_inhibits_the_senescence-associated_secretory_phenotype_by_interfering_with_ikk.pdf"
+    },
+    {
+      "id": "P07",
+      "study_family_id": "doi:10.1038/ncomms3192",
+      "title": "Metformin improves healthspan and lifespan in mice",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3736576/",
+      "source_type": "primary_study",
+      "evidence_access": "Primary PMC full text",
+      "observation": "Lower exposure extended mean lifespan in C57BL/6; measured serum 0.45 ±0.09 mM. Higher exposure shortened mean lifespan.",
+      "limitation": "Species/exposure mismatch; 5.03 ±0.87 mM serum at toxic higher intervention. Liver nmol/mg protein is not plasma molarity.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3736576/"
+    },
+    {
+      "id": "P08",
+      "study_family_id": "label:P08",
+      "title": "SPRYCEL US prescribing information",
+      "url": "https://packageinserts.bms.com/pi/pi_sprycel.pdf",
+      "source_type": "regulator_label",
+      "evidence_access": "Full current manufacturer US prescribing information including FDA-approved labeling",
+      "observation": "Approved specified Ph+ CML/ALL uses; plasma Cmax 82.2 ng/mL; 96% plasma binding; half-life 3-5 hours.",
+      "limitation": "Cancer approval does not validate senolysis. Serious hematologic, pulmonary and developmental liabilities; free estimate extrapolates binding measured at 100-500 ng/mL.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://packageinserts.bms.com/pi/pi_sprycel.pdf"
+    },
+    {
+      "id": "P09",
+      "study_family_id": "doi:10.1111/acel.12344",
+      "title": "The Achilles’ heel of senescent cells: from transcriptome to senolytic drugs",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.12344",
+      "source_type": "primary_study",
+      "evidence_access": "Full primary Wiley article, results and figure material inspected",
+      "observation": "At least 50 nM dasatinib reduced senescent preadipocyte viability over 3 days; cell-type-dependent response.",
+      "limitation": "Not BubR1 model; killing rather than segregation correction; combination results cannot be assigned to monotherapy.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.12344"
+    },
+    {
+      "id": "P10",
+      "study_family_id": "doi:10.15252/embr.201949248",
+      "title": "Small-molecule inhibition of aging-associated chromosomal instability delays cellular senescence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7202060/",
+      "source_type": "primary_study",
+      "evidence_access": "Full primary PMC article and figure legends",
+      "observation": "1 micromolar improved aged-fibroblast segregation readouts.",
+      "limitation": "Higher than 0.1 micromolar could fail or worsen CIN in cancer cells; no verified market approval; not BUB1B rescue.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_sources.json",
+      "inspected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7202060/"
+    },
+    {
+      "id": "P11",
+      "study_family_id": "label:P11",
+      "title": "ACETADOTE (acetylcysteine) US prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021539s021lbl.pdf",
+      "source_type": "regulator_label",
+      "evidence_access": "Full FDA PDF, indication and section 12.3 inspected",
+      "observation": "Approved acetaminophen-overdose antidote; total terminal half-life 5.6 h; binding 66-87%; molecular weight 163.2.",
+      "limitation": "No chronic chromosome-instability indication; binding does not identify reduced-parent target-tissue exposure.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_acetylcysteine_addendum_sources.json",
+      "inspected_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021539s021lbl.pdf"
+    },
+    {
+      "id": "P13",
+      "study_family_id": "doi:10.1002/rmb2.12622",
+      "title": "Sod1 deficiency in mouse oocytes during in vitro maturation increases chromosome segregation errors with a reduced BUBR1 at kinetochore",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39845481/",
+      "source_type": "primary_study",
+      "evidence_access": "Primary PubMed/PMC search excerpts; publisher landing page, subsequent detail requests timed out",
+      "observation": "Primary abstract/search excerpts report fewer segregation errors with 500 micromolar NAC.",
+      "limitation": "Different genotype and meiosis; detailed full text unstable; no NAC-to-BUBR1-localization rescue claim extracted.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_acetylcysteine_addendum_sources.json",
+      "inspected_url": "https://pubmed.ncbi.nlm.nih.gov/39845481/"
+    },
+    {
+      "id": "P14",
+      "study_family_id": "doi:10.1007/bf00558131",
+      "title": "The disposition and kinetics of intravenous N-acetylcysteine in patients with paracetamol overdosage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2598989/",
+      "source_type": "primary_study",
+      "evidence_access": "Full primary abstract inspected",
+      "observation": "Mean total-plasma early peak 554 mg/L; approximately 35 mg/L after 12 h.",
+      "limitation": "Historical acute poisoning, transient total concentration, not free reduced NAC or sustained tissue exposure; no chronic-use extrapolation. Primary abstract links adverse reactions to early high concentrations; peak is not a tolerability benchmark.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_acetylcysteine_addendum_sources.json",
+      "inspected_url": "https://pubmed.ncbi.nlm.nih.gov/2598989/"
+    },
+    {
+      "id": "P15",
+      "study_family_id": "doi:10.1007/bf01061422",
+      "title": "Pharmacokinetics and bioavailability of reduced and oxidized N-acetylcysteine",
+      "url": "https://link.springer.com/article/10.1007/BF01061422",
+      "source_type": "primary_study",
+      "evidence_access": "Primary publisher abstract inspected; full text subscription only",
+      "observation": "Reduced oral bioavailability 4.0%; total 9.1%; reduced intravenous terminal half-life 1.95 h versus total 5.58 h.",
+      "limitation": "Small study; no chromosome-instability endpoint or relevant tissue measurements; reduced and total analytes not interchangeable.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/pharmacology_acetylcysteine_addendum_sources.json",
+      "inspected_url": "https://link.springer.com/article/10.1007/BF01061422"
+    },
+    {
+      "id": "C01",
+      "study_family_id": "doi:10.1242/jcs.260688",
+      "title": "Oxidative stress induces chromosomal instability through replication stress in fibroblasts from aged mice",
+      "url": "https://journals.biologists.com/jcs/article/136/11/jcs260688/316611/Oxidative-stress-induces-chromosomal-instability",
+      "source_type": "primary_study",
+      "evidence_access": "full text, Fig4/Fig6 and drug-treatment methods inspected",
+      "observation": "At 5 mM NAC, aged-cell live imaging showed fewer segregation errors and reduced replication-stress readouts; young-cell response differed.",
+      "limitation": "Related aging model, not MVA. Millimolar culture exposure; human unbound tissue exposure not established. NAC plus MitoQ/UMK57 did not uniformly add benefit.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/coordinator_sources.json",
+      "inspected_url": "https://journals.biologists.com/jcs/article/136/11/jcs260688/316611/Oxidative-stress-induces-chromosomal-instability"
+    },
+    {
+      "id": "C02",
+      "study_family_id": "publication:https://pmc.ncbi.nlm.nih.gov/articles/PMC3799279/",
+      "title": "Contribution of BubR1 to oxidative stress-induced aneuploidy in p53-deficient cells",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3799279/",
+      "source_type": "primary_study",
+      "evidence_access": "full text, results and Fig1-3 inspected",
+      "observation": "NAC prevented oxidant-associated loss of BubR1/Mad2 expression; the paper demonstrates context-dependent p53/BubR1 effects on polyploidy.",
+      "limitation": "No inherited BUB1B-mutant rescue. Protein preservation is not corrected segregation. p53 modulation must not be inferred to be therapeutic.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/coordinator_sources.json",
+      "inspected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3799279/"
+    },
+    {
+      "id": "S03",
+      "study_family_id": "doi:10.1016/j.celrep.2013.03.028",
+      "title": "p21 Both Attenuates and Drives Senescence and Aging in BubR1 Progeroid Mice",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/",
+      "source_type": "primary_study",
+      "evidence_access": "PMC full text accessed; results and survival figure legends examined.",
+      "observation": "Median survival shortened about 35%; p21 protected muscle/fat but promoted lens pathology.",
+      "limitation": "Tissue-specific opposing effects disfavor indiscriminate senescence suppression. Genetic lifelong loss is not equivalent to transient drug inhibition.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/safety_sources.json",
+      "inspected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3785294/"
+    },
+    {
+      "id": "S09",
+      "study_family_id": "doi:10.1073/pnas.0904343106",
+      "title": "Elevating the frequency of chromosome mis-segregation as a strategy to kill tumor cells",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2776415/",
+      "source_type": "primary_study",
+      "evidence_access": "Extensive primary PMC indexed results text and PNAS/PubMed bibliographic metadata; direct PMC open blocked.",
+      "observation": "Increased severe chromosome errors and reduced long-term viability; early survival can miss later death after divisions.",
+      "limitation": "Cancer-cell killing has opposite intent from preserving constitutionally deficient normal tissue; no correction or treatment-safety inference.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/safety_sources.json",
+      "inspected_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2776415/"
+    },
+    {
+      "id": "R01",
+      "study_family_id": "official-challenge-2026",
+      "title": "Organizer clarification: combinations and investigational drugs",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/5",
+      "source_type": "official_rule",
+      "evidence_access": "Public discussion; organizer response read in full",
+      "observation": "Combinations of market-approved drugs permitted with individual and combination rationale; investigational drugs outside current Track 2 scope.",
+      "limitation": "Does not endorse any particular drug or combination; invitation to raise exceptions is not an exception.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/5"
+    },
+    {
+      "id": "R02",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official Track 2 submission instructions and validation",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/submit_track2.py",
+      "source_type": "official_rule",
+      "evidence_access": "Public source read in full via web",
+      "observation": "PDF/Markdown report with mechanism; GitHub reproducible code/configs; 3-minute YouTube/Vimeo pitch; latest entry reviewed; one submitting teammate; record AI provider/tier/settings. Repository public after close.",
+      "limitation": "Source is a mutable main branch; a script/storyboard is not the required recorded video.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/submit_track2.py"
+    },
+    {
+      "id": "R03",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official Rules",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/rules.py",
+      "source_type": "official_rule",
+      "evidence_access": "Public source read in full using read-only HTTPS after web fetch failure",
+      "observation": "No gated-data redistribution or recontact; deletion within 30 days including intermediate datasets; email cnb@sagebase.org confirmation. Report/repository/video required. CC-BY submissions, attribution, embargo, acknowledgement, privacy and dataset-citation requirements.",
+      "limitation": "General derived-output sharing permission does not override privacy or gated-data prohibition. This review accepts no terms and verifies no participant eligibility.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/rules.py"
+    },
+    {
+      "id": "R04",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official overview and timeline",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/about.py",
+      "source_type": "official_rule",
+      "evidence_access": "Public source read in full using read-only HTTPS",
+      "observation": "Deadline October 24 23:59 UTC. Approved-drug hypotheses for follow-up, not efficacy evidence. Weights 35% rigor, 25% impact, 25% innovation, 15% scalability; judging through December 17 and announcement December 18.",
+      "limitation": "Dates explicitly subject to change; weights are competition criteria, not calibrated therapeutic probabilities.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/about.py"
+    },
+    {
+      "id": "R05",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official FAQ",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/faq.py",
+      "source_type": "official_rule",
+      "evidence_access": "Public source read in full using read-only HTTPS",
+      "observation": "Three Track 2 submissions per team; latest reviewed. GitHub public after close; underlying data gated, results/code/reports CC BY 4.0.",
+      "limitation": "Not independent corroboration of rules: same organizer and same source repository.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/faq.py"
+    },
+    {
+      "id": "R06",
+      "study_family_id": "official-challenge-2026",
+      "title": "Organizer privacy clarification and later consumer-tier correction",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2",
+      "source_type": "official_rule",
+      "evidence_access": "Public discussion read in full including final correction",
+      "observation": "Processor terms require no training/rights and limited-purpose retention; preserve findings, delete genome-carrying files and logs. Final organizer correction permits consumer tiers with training opt-out, no feedback and no safety-review flag; document tier/settings.",
+      "limitation": "Cannot infer actual account settings or guarantee safety flags. Public-only review does not validate prior controlled-data processing; latest correction supersedes earlier Business/API-only reply.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2"
+    },
+    {
+      "id": "R07",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official current app announcement",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/app.py",
+      "source_type": "official_rule",
+      "evidence_access": "Public source read in full using read-only HTTPS",
+      "observation": "Current banner repeats October 24 23:59 UTC closing time and links discussion 28.",
+      "limitation": "Linked discussion 28 was inaccessible through web tool and was not relied on.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/app.py"
+    },
+    {
+      "id": "R08",
+      "study_family_id": "official-challenge-2026",
+      "title": "Official repository revision listing",
+      "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/tree/main",
+      "source_type": "official_rule",
+      "evidence_access": "Public tree listing read",
+      "observation": "Listing displayed main revision 60e1c30 and tabs revision 22726e3.",
+      "limitation": "Short displayed hashes only; source fetched at mutable main, not cryptographically frozen snapshot.",
+      "checked_date": "2026-10-17",
+      "provenance_file": "evidence/reproducibility_sources.json",
+      "inspected_url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/tree/main"
+    }
+  ],
+  "source_aliases": {
+    "P01": "M07",
+    "P12": "C01",
+    "S01": "M01",
+    "S02": "M07",
+    "S04": "M05",
+    "S05": "P09",
+    "S06": "P02",
+    "S10": "M08"
+  },
+  "claims": [
+    {
+      "id": "N1",
+      "hypothesis_id": "NAC",
+      "from_node": "NAC exposure",
+      "to_node": "Oxidative-stress-linked segregation errors",
+      "sign": "-",
+      "evidence_status": "supported_elsewhere",
+      "source_ids": [
+        "C01",
+        "P13"
+      ],
+      "model": "Aged mouse fibroblasts; Sod1-null mouse oocytes",
+      "transfer_assumption": "A removable stress component exists in the BUB1B model. These are different genotypes and mitosis/meiosis contexts.",
+      "falsifier": "No per-division benefit when stress and exposure are measured.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "N2",
+      "hypothesis_id": "NAC",
+      "from_node": "BUB1B dysfunction",
+      "to_node": "NAC-sensitive oxidative/replication stress",
+      "sign": "+",
+      "evidence_status": "inferred",
+      "source_ids": [
+        "C02",
+        "M01"
+      ],
+      "model": "Unperformed BUB1B functional model",
+      "transfer_assumption": "Oxidative stress is a causal mediator, not only an associated marker.",
+      "falsifier": "No elevated stress or no segregation improvement after stress normalization.",
+      "load_bearing": true,
+      "prospective": true
+    },
+    {
+      "id": "N3",
+      "hypothesis_id": "NAC",
+      "from_node": "Sustained plausible free/reduced NAC exposure",
+      "to_node": "Preserved viable lineage output with fewer new errors",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "Unperformed exposure-matched BUB1B model",
+      "transfer_assumption": "Relevant analyte, duration and tissue exposure can be attained.",
+      "falsifier": "Benefit restricted to high nominal exposure, arrest, selective death or probe interference.",
+      "load_bearing": true,
+      "prospective": true
+    },
+    {
+      "id": "N4",
+      "hypothesis_id": "NAC",
+      "from_node": "NAC",
+      "to_node": "Missing BubR1 checkpoint function restored",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "No demonstrated disease-model drug rescue",
+      "transfer_assumption": "Direct checkpoint restoration is not assumed.",
+      "falsifier": "Persistent checkpoint defects despite a redox change.",
+      "load_bearing": false,
+      "prospective": true
+    },
+    {
+      "id": "S1",
+      "hypothesis_id": "SIR",
+      "from_node": "Specific BubR1 allelic state",
+      "to_node": "Muscle mTORC1 hyperactivity",
+      "sign": "+",
+      "evidence_status": "observed",
+      "source_ids": [
+        "M02"
+      ],
+      "model": "Engineered allele-specific mouse muscle",
+      "transfer_assumption": "Allele and tissue context transfer only after direct measurement.",
+      "falsifier": "No elevated mTORC1 signaling in relevant model.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "S2",
+      "hypothesis_id": "SIR",
+      "from_node": "Sirolimus",
+      "to_node": "IL1A-associated SASP",
+      "sign": "-",
+      "evidence_status": "supported_elsewhere",
+      "source_ids": [
+        "P02"
+      ],
+      "model": "Senescent human fibroblasts unrelated to BUB1B",
+      "transfer_assumption": "Suppressed secretory activity is harmful-state reversal, not merely a biomarker.",
+      "falsifier": "Target engagement without reduced conditioned-medium harm.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "S3",
+      "hypothesis_id": "SIR",
+      "from_node": "SASP reduction",
+      "to_node": "Tissue-relevant functional harm",
+      "sign": "-",
+      "evidence_status": "inferred",
+      "source_ids": [
+        "M07"
+      ],
+      "model": "Unperformed BUB1B model",
+      "transfer_assumption": "Genetic cell-clearance evidence does not establish pharmacological secretory modulation.",
+      "falsifier": "No functional gain or impaired healthy-cell/progenitor output.",
+      "load_bearing": true,
+      "prospective": true
+    },
+    {
+      "id": "S4",
+      "hypothesis_id": "SIR",
+      "from_node": "Plausible tissue sirolimus exposure",
+      "to_node": "Safe durable downstream benefit",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "Unperformed exposure-matched study",
+      "transfer_assumption": "Whole-blood concentration cannot substitute for unbound tissue exposure.",
+      "falsifier": "Only cytostatic or exposure-infeasible activity.",
+      "load_bearing": true,
+      "prospective": true
+    },
+    {
+      "id": "S5",
+      "hypothesis_id": "SIR",
+      "from_node": "Sirolimus",
+      "to_node": "Segregation error rate",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "No demonstrated corrective experiment",
+      "transfer_assumption": "No checkpoint-repair claim is made.",
+      "falsifier": "Errors unchanged or increased despite reduced cytokines.",
+      "load_bearing": false,
+      "prospective": true
+    },
+    {
+      "id": "T1",
+      "hypothesis_id": "MET",
+      "from_node": "Millimolar metformin",
+      "to_node": "IKK/NF-kappaB-associated SASP",
+      "sign": "-",
+      "evidence_status": "supported_elsewhere",
+      "source_ids": [
+        "P06"
+      ],
+      "model": "Oncogenic-RAS IMR90 fibroblasts",
+      "transfer_assumption": "High nominal culture activity transfers to plausible tissue exposure.",
+      "falsifier": "Effect absent at measured exposure-matched concentrations.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "T2",
+      "hypothesis_id": "MET",
+      "from_node": "Plausible metformin exposure",
+      "to_node": "BUB1B-linked tissue benefit",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "Unperformed BUB1B model",
+      "transfer_assumption": "Transporter-dependent accumulation is measured, not assumed.",
+      "falsifier": "Benefit appears only in millimolar positive-control conditions.",
+      "load_bearing": true,
+      "prospective": true
+    },
+    {
+      "id": "D1",
+      "hypothesis_id": "DAS",
+      "from_node": "Dasatinib",
+      "to_node": "Viability of selected senescent cells",
+      "sign": "-",
+      "evidence_status": "supported_elsewhere",
+      "source_ids": [
+        "P09"
+      ],
+      "model": "Human preadipocytes; cell-type-dependent response",
+      "transfer_assumption": "Selective killing must preserve healthy progenitors and not be called correction.",
+      "falsifier": "Nonsenescent-cell loss or no net tissue-function gain.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "D2",
+      "hypothesis_id": "DAS",
+      "from_node": "Senescent-cell elimination",
+      "to_node": "Selected BubR1 mouse aging pathology",
+      "sign": "-",
+      "evidence_status": "observed",
+      "source_ids": [
+        "M07"
+      ],
+      "model": "INK-ATTAC genetic elimination in BubR1 hypomorphic mice",
+      "transfer_assumption": "Genetic transgene-dependent clearance is not dasatinib monotherapy.",
+      "falsifier": "Drug fails selectivity/function or affects different cell populations.",
+      "load_bearing": true,
+      "prospective": false
+    },
+    {
+      "id": "D3",
+      "hypothesis_id": "DAS",
+      "from_node": "Dasatinib at plausible free exposure",
+      "to_node": "Safe BUB1B tissue benefit",
+      "sign": "unknown",
+      "evidence_status": "unknown",
+      "source_ids": [],
+      "model": "Unperformed disease-model study",
+      "transfer_assumption": "Cancer exposure/tolerability cannot establish chronic constitutional use.",
+      "falsifier": "Depletion, toxicity, genomic selection, or no benefit.",
+      "load_bearing": true,
+      "prospective": true
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "NAC",
+      "drug": "Acetylcysteine",
+      "role": "lead_screen",
+      "approval_verified": true,
+      "approval_source_ids": [
+        "P11"
+      ],
+      "direction": "conditional",
+      "exposure_status": "unresolved",
+      "safety_status": "hold",
+      "evidence_class": "related_model_rescue",
+      "rationale": "First uncertainty-reduction experiment only: direct segregation endpoints in oxidative-stress models; no established BUB1B rescue or exposure bridge.",
+      "strongest_source_id": "C01",
+      "required_mechanism": "oxidative_stress"
+    },
+    {
+      "id": "SIR",
+      "drug": "Sirolimus",
+      "role": "backup_screen",
+      "approval_verified": true,
+      "approval_source_ids": [
+        "P03"
+      ],
+      "direction": "conditional",
+      "exposure_status": "unresolved",
+      "safety_status": "hold",
+      "evidence_class": "pathway_modulation",
+      "rationale": "Distinct downstream compensation experiment only if harmful mTORC1/SASP phenotype exists; not checkpoint correction.",
+      "strongest_source_id": "P02",
+      "required_mechanism": "mtorc1_activation"
+    },
+    {
+      "id": "MET",
+      "drug": "Metformin",
+      "role": "rejected",
+      "approval_verified": true,
+      "approval_source_ids": [
+        "P05"
+      ],
+      "direction": "conditional",
+      "exposure_status": "implausible",
+      "safety_status": "hold",
+      "evidence_class": "pathway_modulation",
+      "rationale": "Millimolar SASP experiments have a large nominal exposure mismatch; no segregation rescue.",
+      "strongest_source_id": "P06",
+      "required_mechanism": "none"
+    },
+    {
+      "id": "DAS",
+      "drug": "Dasatinib",
+      "role": "comparator",
+      "approval_verified": true,
+      "approval_source_ids": [
+        "P08"
+      ],
+      "direction": "conditional",
+      "exposure_status": "unresolved",
+      "safety_status": "reject",
+      "evidence_class": "pathway_modulation",
+      "rationale": "Selective-cell-elimination comparator, rejected as corrective lead; healthy progenitor depletion and serious toxicity concerns.",
+      "strongest_source_id": "P09",
+      "required_mechanism": "none"
+    }
+  ],
+  "exposure_records": [
+    {
+      "id": "NAC_late",
+      "hypothesis_id": "NAC",
+      "assay_uM": 5000,
+      "human_total_uM": 214.4607843137255,
+      "matrix": "nominal culture / historical total plasma at 12 hours",
+      "comparable": false,
+      "note": "48-hour culture versus acute poisoning; total, reduced, free and tissue NAC differ. This is a nonclinical nominal ratio, not a safe target.",
+      "source_ids": [
+        "C01",
+        "P14",
+        "P11"
+      ]
+    },
+    {
+      "id": "NAC_peak",
+      "hypothesis_id": "NAC",
+      "assay_uM": 5000,
+      "human_total_uM": 3394.6078431372553,
+      "matrix": "nominal culture / historical early mean total-plasma peak",
+      "comparable": false,
+      "note": "Transient acute IV peak; no sustained or chronic safety bridge.",
+      "source_ids": [
+        "C01",
+        "P14",
+        "P11"
+      ]
+    },
+    {
+      "id": "NAC_oocyte",
+      "hypothesis_id": "NAC",
+      "assay_uM": 500,
+      "human_total_uM": null,
+      "matrix": "nominal maturation medium / target-tissue exposure unavailable",
+      "comparable": false,
+      "note": "Different genotype, meiotic process and compartment; exact exposure duration not independently verified.",
+      "source_ids": [
+        "P13",
+        "P11"
+      ]
+    },
+    {
+      "id": "SIR_blood",
+      "hypothesis_id": "SIR",
+      "assay_uM": 0.0125,
+      "human_total_uM": 0.016407788230146575,
+      "matrix": "nominal culture / whole blood",
+      "comparable": false,
+      "note": "MW914.2g/mol; 15ng/mL whole blood, adult transplant with co-medication. Blood/plasma partition and protein binding preclude free-tissue comparison.",
+      "source_ids": [
+        "P02",
+        "P03",
+        "P04"
+      ]
+    },
+    {
+      "id": "MET_low",
+      "hypothesis_id": "MET",
+      "assay_uM": 1000,
+      "human_total_uM": 7.74233508826262,
+      "matrix": "nominal culture / upper benchmark total plasma",
+      "comparable": false,
+      "note": "Usual plasma is below1microgram/mL; using metformin free-base MW129.16. Ratio is therefore a lower-bound benchmark, not an intracellular ratio.",
+      "source_ids": [
+        "P06",
+        "P05"
+      ]
+    },
+    {
+      "id": "MET_high",
+      "hypothesis_id": "MET",
+      "assay_uM": 5000,
+      "human_total_uM": 7.74233508826262,
+      "matrix": "nominal culture / upper benchmark total plasma",
+      "comparable": false,
+      "note": "Same lower-bound interpretation; no unmeasured tissue-accumulation rescue.",
+      "source_ids": [
+        "P06",
+        "P05"
+      ]
+    },
+    {
+      "id": "DAS_total",
+      "hypothesis_id": "DAS",
+      "assay_uM": 0.05,
+      "human_total_uM": 0.1684391713284564,
+      "matrix": "nominal 3-day culture / transient total plasma peak",
+      "comparable": false,
+      "note": "96%binding gives approximate free peak0.00674uM, not measured tissue exposure; half-life3–5h. Nominal total ratio does not pass exposure gate.",
+      "source_ids": [
+        "P09",
+        "P08"
+      ]
+    }
+  ],
+  "excluded_unverified_record": "C03 omitted: title/full-text verification was inadequate; no conclusion depends on it.",
+  "deduplication_note": "DOI families count one study regardless of mirrors or repeat reviewer citation. Different families are not necessarily independent laboratories or disease models."
+}

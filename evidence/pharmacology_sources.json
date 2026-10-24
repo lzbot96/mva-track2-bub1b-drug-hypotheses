@@ -1,0 +1,232 @@
+{
+  "review": "Independent pharmacology first pass",
+  "frozen_before_targeted_addendum": true,
+  "status": "REVISE research framing; BLOCK corrective therapeutic claim",
+  "sources": [
+    {
+      "id": "P01",
+      "title": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22048312/",
+      "DOI": "10.1038/nature10600",
+      "PMID": "22048312",
+      "year": 2011,
+      "model": "BubR1 progeroid mouse with INK-ATTAC transgene",
+      "intervention": "Genetically enabled inducible clearance of p16-positive cells",
+      "observation": "Supports contribution of a senescent population to selected pathology.",
+      "contrary_or_limit": "Not an approved-drug experiment or correction of checkpoint biology; primary abstract/search record only.",
+      "evidence_access": "Primary PubMed abstract/search excerpt; PMC full text blocked by browser challenge",
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P02",
+      "title": "MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation",
+      "url": "https://eriba.umcg.nl/wp-content/uploads/2016/01/Demaria-2015-07-06-Nat-Cell-Biol.pdf",
+      "DOI": "10.1038/ncb3195",
+      "PMID": null,
+      "year": 2015,
+      "model": "Human fibroblast and epithelial senescence models; no BUB1B perturbation",
+      "intervention": "Rapamycin; genetic MTOR/raptor pathway perturbations",
+      "observation": "Reduced IL1A translation and SASP; Figure 6 separates secretory suppression from persistent senescence arrest.",
+      "contrary_or_limit": "No segregation rescue or BUB1B disease-model rescue established.",
+      "evidence_access": "Full primary PDF via author institution; relevant text and figure legends inspected",
+      "assay_exposure": {
+        "nominal_value": 12.5,
+        "unit": "nM",
+        "free_concentration_measured": false,
+        "context": "Subsequent experiments; multiple exposure schedules, commonly days"
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P03",
+      "title": "Rapamune EPAR and product information",
+      "url": "https://www.ema.europa.eu/en/documents/product-information/rapamune-epar-product-information_en.pdf",
+      "DOI": null,
+      "PMID": null,
+      "year": 2026,
+      "model": "Regulatory indication and human pharmacokinetics",
+      "intervention": "Sirolimus",
+      "observation": "EU authorization: specified renal transplantation prophylaxis and sporadic LAM; EPAR updated 2026-06-04.",
+      "contrary_or_limit": "Approval is not for BUB1B disease; adult transplant exposure includes co-medication context.",
+      "evidence_access": "Current EMA EPAR webpage and full product information PDF",
+      "approval_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rapamune",
+      "human_pk": {
+        "Cmax_ss": 15.0,
+        "SD": 4.9,
+        "unit": "ng/mL",
+        "matrix": "whole blood",
+        "context": "Adult renal transplant tablet regimen with ciclosporin, months 1-3; descriptive benchmark only",
+        "blood_to_plasma_ratio": 36
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P04",
+      "title": "Rapamune US prescribing information (2020 archived FDA label)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/021083s067,021110s085lbl.pdf",
+      "DOI": null,
+      "PMID": null,
+      "year": 2020,
+      "model": "Official human pharmacokinetics/safety label",
+      "intervention": "Sirolimus",
+      "observation": "Approximately 92% plasma protein binding; blood/plasma ratio 36 ±18.",
+      "contrary_or_limit": "Archived label used for PK, not sole proof of current approval; whole blood cannot stand for unbound target-tissue concentration.",
+      "evidence_access": "Full FDA label PDF",
+      "human_pk": {
+        "plasma_bound_fraction_approx": 0.92,
+        "blood_to_plasma_ratio_mean": 36,
+        "blood_to_plasma_ratio_SD": 18
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P05",
+      "title": "Metformin hydrochloride tablet US DailyMed label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ec3a9070-3745-41fb-b610-8d06129d8fd9",
+      "DOI": null,
+      "PMID": null,
+      "year": 2025,
+      "model": "Official US prescription label, ANDA marketing status",
+      "intervention": "Metformin",
+      "observation": "Type 2 diabetes glycemic-control indication in adults and children age 10+; usual steady-state plasma <1 microgram/mL; negligible protein binding.",
+      "contrary_or_limit": "No BUB1B indication. Not a tissue concentration or universal exposure ceiling.",
+      "evidence_access": "Full DailyMed label, updated 2025-07-01; sections 1 and 12.3 inspected",
+      "human_pk": {
+        "usual_steady_state_plasma_upper_benchmark": 1,
+        "unit": "microgram/mL",
+        "relation": "less than",
+        "binding": "negligible",
+        "derived_uM_approx": 7.74,
+        "calculation_assumption": "1 mg/L /129.16 g/mol, assuming analyte mass is metformin free base"
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P06",
+      "title": "Metformin inhibits the senescence-associated secretory phenotype by interfering with IKK/NF-kappaB activation",
+      "url": "https://www.mcgill.ca/pollak-lab/files/pollak-lab/metformin_inhibits_the_senescence-associated_secretory_phenotype_by_interfering_with_ikk.pdf",
+      "DOI": "10.1111/acel.12075",
+      "PMID": "23521863",
+      "year": 2013,
+      "model": "RAS-induced IMR90 human fibroblast senescence; additional macrophage/MEF experiments",
+      "intervention": "Metformin",
+      "observation": "Figure 2 cytokine transcript suppression at 1, 2.5 and 5 mM, with proliferation-marker control.",
+      "contrary_or_limit": "Nominal millimolar exposure does not bridge to usual human plasma; not BUB1B rescue.",
+      "evidence_access": "Full primary PDF at author institution, Figure 2 and methods inspected",
+      "assay_exposure": {
+        "values": [
+          1,
+          2.5,
+          5
+        ],
+        "unit": "mM",
+        "duration_days": 6,
+        "medium": "DMEM with 10% FBS",
+        "free_concentration_measured": false
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P07",
+      "title": "Metformin improves healthspan and lifespan in mice",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3736576/",
+      "DOI": "10.1038/ncomms3192",
+      "PMID": null,
+      "year": 2013,
+      "model": "Male C57BL/6 and B6C3F1 mice, not BubR1 deficiency",
+      "intervention": "Dietary metformin",
+      "observation": "Lower exposure extended mean lifespan in C57BL/6; measured serum 0.45 ±0.09 mM. Higher exposure shortened mean lifespan.",
+      "contrary_or_limit": "Species/exposure mismatch; 5.03 ±0.87 mM serum at toxic higher intervention. Liver nmol/mg protein is not plasma molarity.",
+      "evidence_access": "Primary PMC full text",
+      "measured_exposures": [
+        {
+          "mean": 0.45,
+          "SEM": 0.09,
+          "unit": "mM",
+          "matrix": "mouse serum"
+        },
+        {
+          "mean": 5.03,
+          "SEM": 0.87,
+          "unit": "mM",
+          "matrix": "mouse serum"
+        }
+      ],
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P08",
+      "title": "SPRYCEL US prescribing information",
+      "url": "https://packageinserts.bms.com/pi/pi_sprycel.pdf",
+      "DOI": null,
+      "PMID": null,
+      "year": 2026,
+      "model": "Official US label revised 2026-09",
+      "intervention": "Dasatinib",
+      "observation": "Approved specified Ph+ CML/ALL uses; plasma Cmax 82.2 ng/mL; 96% plasma binding; half-life 3-5 hours.",
+      "contrary_or_limit": "Cancer approval does not validate senolysis. Serious hematologic, pulmonary and developmental liabilities; free estimate extrapolates binding measured at 100-500 ng/mL.",
+      "evidence_access": "Full current manufacturer US prescribing information including FDA-approved labeling",
+      "human_pk": {
+        "Cmax_ss": 82.2,
+        "unit": "ng/mL",
+        "matrix": "plasma total",
+        "context": "Adult labeled clinical regimen, descriptive reference only",
+        "free_base_MW_g_mol": 488.01,
+        "derived_Cmax_total_nM": 168.44,
+        "derived_Cmax_free_nM_approx": 6.74,
+        "free_estimate_assumptions": "Constant 96% binding; not a measured free plasma or tissue value",
+        "half_life_hours": [
+          3,
+          5
+        ]
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P09",
+      "title": "The Achilles’ heel of senescent cells: from transcriptome to senolytic drugs",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/acel.12344",
+      "DOI": "10.1111/acel.12344",
+      "PMID": "25754370",
+      "year": 2015,
+      "model": "Human senescent preadipocytes/endothelial cells; aged, irradiated and Ercc1 progeroid mice",
+      "intervention": "Dasatinib alone in selected cell assays; dasatinib plus quercetin for broad in-vivo findings",
+      "observation": "At least 50 nM dasatinib reduced senescent preadipocyte viability over 3 days; cell-type-dependent response.",
+      "contrary_or_limit": "Not BubR1 model; killing rather than segregation correction; combination results cannot be assigned to monotherapy.",
+      "evidence_access": "Full primary Wiley article, results and figure material inspected",
+      "assay_exposure": {
+        "threshold_value": 50,
+        "unit": "nM nominal",
+        "duration_days": 3,
+        "free_concentration_measured": false
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P10",
+      "title": "Small-molecule inhibition of aging-associated chromosomal instability delays cellular senescence",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7202060/",
+      "DOI": "10.15252/embr.201949248",
+      "PMID": "32134180",
+      "year": 2020,
+      "model": "Aged human dermal fibroblasts; HT-1080 cancer-cell comparison",
+      "intervention": "UMK57 MCAK agonist",
+      "observation": "1 micromolar improved aged-fibroblast segregation readouts.",
+      "contrary_or_limit": "Higher than 0.1 micromolar could fail or worsen CIN in cancer cells; no verified market approval; not BUB1B rescue.",
+      "evidence_access": "Full primary PMC article and figure legends",
+      "assay_exposure": {
+        "value": 1,
+        "unit": "micromolar nominal",
+        "duration_initial_hours": 24
+      },
+      "checked_date": "2026-10-17"
+    }
+  ],
+  "drug_dispositions": {
+    "sirolimus": "Conditional downstream mechanistic probe; exposure gate unresolved",
+    "metformin": "Rejected lead: exposure mismatch",
+    "dasatinib": "Senolysis comparator only; not validated backup",
+    "UMK57": "Research comparator excluded from approved shortlist"
+  },
+  "independence": "Only PUBLIC_RESEARCH_BRIEF.md and PLAN.md read as local inputs; no case/other-reviewer/submission files consulted."
+}

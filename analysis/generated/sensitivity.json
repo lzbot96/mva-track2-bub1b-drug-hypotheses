@@ -1,0 +1,619 @@
+{
+  "input_sha256": "c88fc658f4fb9f8fe1f2de48696ff5df51583d96023b1927d3e6b9fb50ce6a27",
+  "results": [
+    {
+      "hypothesis_id": "NAC",
+      "baseline": {
+        "hypothesis_id": "NAC",
+        "role": "lead_screen",
+        "classification": "hold_for_mechanism_or_exposure",
+        "reasons": [
+          "Exposure is not comparable.",
+          "Missing, noncomparable, or unsupported PK/exposure inputs.",
+          "Safety hold.",
+          "Unsupported or unknown load-bearing edge: N2.",
+          "Unsupported or unknown load-bearing edge: N3."
+        ],
+        "empirical_study_family_count": 2,
+        "empirical_study_family_ids": [
+          "doi:10.1002/rmb2.12622",
+          "doi:10.1242/jcs.260688"
+        ]
+      },
+      "removals": {
+        "strongest_source_removed": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622"
+          ],
+          "removed_source_ids": [
+            "C01"
+          ],
+          "affected_claim_ids": [
+            "N1"
+          ],
+          "severed_claim_ids": []
+        },
+        "strongest_family_removed": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622"
+          ],
+          "removed_source_ids": [
+            "C01"
+          ],
+          "affected_claim_ids": [
+            "N1"
+          ],
+          "severed_claim_ids": []
+        }
+      },
+      "scenarios": {
+        "no_oxidative_stress": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3.",
+            "Scenario removes required mechanism: oxidative_stress."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622",
+            "doi:10.1242/jcs.260688"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "no_mtorc1_activation": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622",
+            "doi:10.1242/jcs.260688"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "near_null_bubr1": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622",
+            "doi:10.1242/jcs.260688"
+          ],
+          "scenario_interpretation": "No residual-BubR1 dependency is encoded for this hypothesis. Downstream modulation under near-null BubR1 remains unknown; an unchanged gate is not evidence that the intervention works in this scenario."
+        },
+        "non_bubr1_cause": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3.",
+            "Scenario removes the BUBR1 causal premise; reassessment required."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622",
+            "doi:10.1242/jcs.260688"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "exposure_not_comparable": {
+          "hypothesis_id": "NAC",
+          "role": "lead_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: N2.",
+            "Unsupported or unknown load-bearing edge: N3.",
+            "Scenario assumes exposure is not comparable."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1002/rmb2.12622",
+            "doi:10.1242/jcs.260688"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        }
+      }
+    },
+    {
+      "hypothesis_id": "SIR",
+      "baseline": {
+        "hypothesis_id": "SIR",
+        "role": "backup_screen",
+        "classification": "hold_for_mechanism_or_exposure",
+        "reasons": [
+          "Exposure is not comparable.",
+          "Missing, noncomparable, or unsupported PK/exposure inputs.",
+          "Safety hold.",
+          "Unsupported or unknown load-bearing edge: S3.",
+          "Unsupported or unknown load-bearing edge: S4."
+        ],
+        "empirical_study_family_count": 2,
+        "empirical_study_family_ids": [
+          "doi:10.1038/ncb3195",
+          "doi:10.1172/jci126863"
+        ]
+      },
+      "removals": {
+        "strongest_source_removed": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S2.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1172/jci126863"
+          ],
+          "removed_source_ids": [
+            "P02"
+          ],
+          "affected_claim_ids": [
+            "S2"
+          ],
+          "severed_claim_ids": [
+            "S2"
+          ]
+        },
+        "strongest_family_removed": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S2.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1172/jci126863"
+          ],
+          "removed_source_ids": [
+            "P02"
+          ],
+          "affected_claim_ids": [
+            "S2"
+          ],
+          "severed_claim_ids": [
+            "S2"
+          ]
+        }
+      },
+      "scenarios": {
+        "no_oxidative_stress": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/ncb3195",
+            "doi:10.1172/jci126863"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "no_mtorc1_activation": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4.",
+            "Scenario removes required mechanism: mtorc1_activation."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/ncb3195",
+            "doi:10.1172/jci126863"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "near_null_bubr1": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/ncb3195",
+            "doi:10.1172/jci126863"
+          ],
+          "scenario_interpretation": "No residual-BubR1 dependency is encoded for this hypothesis. Downstream modulation under near-null BubR1 remains unknown; an unchanged gate is not evidence that the intervention works in this scenario."
+        },
+        "non_bubr1_cause": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4.",
+            "Scenario removes the BUBR1 causal premise; reassessment required."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/ncb3195",
+            "doi:10.1172/jci126863"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "exposure_not_comparable": {
+          "hypothesis_id": "SIR",
+          "role": "backup_screen",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: S3.",
+            "Unsupported or unknown load-bearing edge: S4.",
+            "Scenario assumes exposure is not comparable."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/ncb3195",
+            "doi:10.1172/jci126863"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        }
+      }
+    },
+    {
+      "hypothesis_id": "MET",
+      "baseline": {
+        "hypothesis_id": "MET",
+        "role": "rejected",
+        "classification": "hold_for_mechanism_or_exposure",
+        "reasons": [
+          "Exposure is not comparable.",
+          "Missing, noncomparable, or unsupported PK/exposure inputs.",
+          "Safety hold.",
+          "Unsupported or unknown load-bearing edge: T2."
+        ],
+        "empirical_study_family_count": 1,
+        "empirical_study_family_ids": [
+          "doi:10.1111/acel.12075"
+        ]
+      },
+      "removals": {
+        "strongest_source_removed": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T1.",
+            "Unsupported or unknown load-bearing edge: T2."
+          ],
+          "empirical_study_family_count": 0,
+          "empirical_study_family_ids": [],
+          "removed_source_ids": [
+            "P06"
+          ],
+          "affected_claim_ids": [
+            "T1"
+          ],
+          "severed_claim_ids": [
+            "T1"
+          ]
+        },
+        "strongest_family_removed": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T1.",
+            "Unsupported or unknown load-bearing edge: T2."
+          ],
+          "empirical_study_family_count": 0,
+          "empirical_study_family_ids": [],
+          "removed_source_ids": [
+            "P06"
+          ],
+          "affected_claim_ids": [
+            "T1"
+          ],
+          "severed_claim_ids": [
+            "T1"
+          ]
+        }
+      },
+      "scenarios": {
+        "no_oxidative_stress": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T2."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1111/acel.12075"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "no_mtorc1_activation": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T2."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1111/acel.12075"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "near_null_bubr1": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T2."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1111/acel.12075"
+          ],
+          "scenario_interpretation": "No residual-BubR1 dependency is encoded for this hypothesis. Downstream modulation under near-null BubR1 remains unknown; an unchanged gate is not evidence that the intervention works in this scenario."
+        },
+        "non_bubr1_cause": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T2.",
+            "Scenario removes the BUBR1 causal premise; reassessment required."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1111/acel.12075"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "exposure_not_comparable": {
+          "hypothesis_id": "MET",
+          "role": "rejected",
+          "classification": "hold_for_mechanism_or_exposure",
+          "reasons": [
+            "Exposure is not comparable.",
+            "Missing, noncomparable, or unsupported PK/exposure inputs.",
+            "Safety hold.",
+            "Unsupported or unknown load-bearing edge: T2.",
+            "Scenario assumes exposure is not comparable."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1111/acel.12075"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        }
+      }
+    },
+    {
+      "hypothesis_id": "DAS",
+      "baseline": {
+        "hypothesis_id": "DAS",
+        "role": "comparator",
+        "classification": "excluded_as_therapeutic_lead",
+        "reasons": [
+          "Wrong direction or rejected safety."
+        ],
+        "empirical_study_family_count": 2,
+        "empirical_study_family_ids": [
+          "doi:10.1038/nature10600",
+          "doi:10.1111/acel.12344"
+        ]
+      },
+      "removals": {
+        "strongest_source_removed": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600"
+          ],
+          "removed_source_ids": [
+            "P09"
+          ],
+          "affected_claim_ids": [
+            "D1"
+          ],
+          "severed_claim_ids": [
+            "D1"
+          ]
+        },
+        "strongest_family_removed": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 1,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600"
+          ],
+          "removed_source_ids": [
+            "P09"
+          ],
+          "affected_claim_ids": [
+            "D1"
+          ],
+          "severed_claim_ids": [
+            "D1"
+          ]
+        }
+      },
+      "scenarios": {
+        "no_oxidative_stress": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600",
+            "doi:10.1111/acel.12344"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "no_mtorc1_activation": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600",
+            "doi:10.1111/acel.12344"
+          ],
+          "scenario_interpretation": "The removed mechanism is not the encoded required mechanism; an unchanged gate does not establish robustness or efficacy in this scenario."
+        },
+        "near_null_bubr1": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600",
+            "doi:10.1111/acel.12344"
+          ],
+          "scenario_interpretation": "No residual-BubR1 dependency is encoded for this hypothesis. Downstream modulation under near-null BubR1 remains unknown; an unchanged gate is not evidence that the intervention works in this scenario."
+        },
+        "non_bubr1_cause": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600",
+            "doi:10.1111/acel.12344"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        },
+        "exposure_not_comparable": {
+          "hypothesis_id": "DAS",
+          "role": "comparator",
+          "classification": "excluded_as_therapeutic_lead",
+          "reasons": [
+            "Wrong direction or rejected safety."
+          ],
+          "empirical_study_family_count": 2,
+          "empirical_study_family_ids": [
+            "doi:10.1038/nature10600",
+            "doi:10.1111/acel.12344"
+          ],
+          "scenario_interpretation": "Scenario removes an encoded prerequisite or requires causal reassessment; no revised probability is inferred."
+        }
+      }
+    }
+  ]
+}

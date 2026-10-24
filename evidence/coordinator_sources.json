@@ -1,0 +1,40 @@
+[
+  {
+    "id": "C01",
+    "title": "Oxidative stress induces chromosomal instability through replication stress in fibroblasts from aged mice",
+    "url": "https://journals.biologists.com/jcs/article/136/11/jcs260688/316611/Oxidative-stress-induces-chromosomal-instability",
+    "doi": "10.1242/jcs.260688",
+    "year": 2023,
+    "model": "Primary early-passage fibroblasts from young and aged C57BL/6J mice; no engineered BUB1B genotype",
+    "intervention": "N-acetylcysteine; related mechanistic antioxidants/controls",
+    "observation": "At 5 mM NAC, aged-cell live imaging showed fewer segregation errors and reduced replication-stress readouts; young-cell response differed.",
+    "contrary_or_limit": "Related aging model, not MVA. Millimolar culture exposure; human unbound tissue exposure not established. NAC plus MitoQ/UMK57 did not uniformly add benefit.",
+    "evidence_access": "full text, Fig4/Fig6 and drug-treatment methods inspected",
+    "checked_date": "2026-10-17",
+    "evidence_class": "related-model rescue",
+    "assay_concentration": {
+      "value": 5000,
+      "unit": "uM",
+      "duration_hours": 48,
+      "free_fraction": null
+    }
+  },
+  {
+    "id": "C02",
+    "title": "Contribution of BubR1 to oxidative stress-induced aneuploidy in p53-deficient cells",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3799279/",
+    "year": 2013,
+    "model": "Human MRC5 fibroblasts under chemical oxidative stress; p53/BubR1 knockdown experiments",
+    "intervention": "N-acetylcysteine pretreatment; p53/BubR1 perturbations",
+    "observation": "NAC prevented oxidant-associated loss of BubR1/Mad2 expression; the paper demonstrates context-dependent p53/BubR1 effects on polyploidy.",
+    "contrary_or_limit": "No inherited BUB1B-mutant rescue. Protein preservation is not corrected segregation. p53 modulation must not be inferred to be therapeutic.",
+    "evidence_access": "full text, results and Fig1-3 inspected",
+    "checked_date": "2026-10-17",
+    "evidence_class": "pathway modulation",
+    "assay_concentration": {
+      "value": 1000,
+      "unit": "uM",
+      "free_fraction": null
+    }
+  }
+]

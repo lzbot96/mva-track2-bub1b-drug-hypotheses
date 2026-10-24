@@ -1,0 +1,90 @@
+[
+  {
+    "id": "R01",
+    "title": "Organizer clarification: combinations and investigational drugs",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/5",
+    "date": "2026-08-30",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public discussion; organizer response read in full",
+    "observation": "Combinations of market-approved drugs permitted with individual and combination rationale; investigational drugs outside current Track 2 scope.",
+    "limit": "Does not endorse any particular drug or combination; invitation to raise exceptions is not an exception.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R02",
+    "title": "Official Track 2 submission instructions and validation",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/submit_track2.py",
+    "date": "2026-08-28 update",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public source read in full via web",
+    "observation": "PDF/Markdown report with mechanism; GitHub reproducible code/configs; 3-minute YouTube/Vimeo pitch; latest entry reviewed; one submitting teammate; record AI provider/tier/settings. Repository public after close.",
+    "limit": "Source is a mutable main branch; a script/storyboard is not the required recorded video.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R03",
+    "title": "Official Rules",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/rules.py",
+    "date": "2026-10-13",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public source read in full using read-only HTTPS after web fetch failure",
+    "observation": "No gated-data redistribution or recontact; deletion within 30 days including intermediate datasets; email cnb@sagebase.org confirmation. Report/repository/video required. CC-BY submissions, attribution, embargo, acknowledgement, privacy and dataset-citation requirements.",
+    "limit": "General derived-output sharing permission does not override privacy or gated-data prohibition. This review accepts no terms and verifies no participant eligibility.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R04",
+    "title": "Official overview and timeline",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/about.py",
+    "date": null,
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public source read in full using read-only HTTPS",
+    "observation": "Deadline October 24 23:59 UTC. Approved-drug hypotheses for follow-up, not efficacy evidence. Weights 35% rigor, 25% impact, 25% innovation, 15% scalability; judging through December 17 and announcement December 18.",
+    "limit": "Dates explicitly subject to change; weights are competition criteria, not calibrated therapeutic probabilities.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R05",
+    "title": "Official FAQ",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/tabs/faq.py",
+    "date": "2026-08-28 repository update",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public source read in full using read-only HTTPS",
+    "observation": "Three Track 2 submissions per team; latest reviewed. GitHub public after close; underlying data gated, results/code/reports CC BY 4.0.",
+    "limit": "Not independent corroboration of rules: same organizer and same source repository.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R06",
+    "title": "Organizer privacy clarification and later consumer-tier correction",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/discussions/2",
+    "date": "2026-08-26 initial; later correction shown as 17 days ago",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public discussion read in full including final correction",
+    "observation": "Processor terms require no training/rights and limited-purpose retention; preserve findings, delete genome-carrying files and logs. Final organizer correction permits consumer tiers with training opt-out, no feedback and no safety-review flag; document tier/settings.",
+    "limit": "Cannot infer actual account settings or guarantee safety flags. Public-only review does not validate prior controlled-data processing; latest correction supersedes earlier Business/API-only reply.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R07",
+    "title": "Official current app announcement",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/raw/main/app.py",
+    "date": "2026-10-16 repository update",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public source read in full using read-only HTTPS",
+    "observation": "Current banner repeats October 24 23:59 UTC closing time and links discussion 28.",
+    "limit": "Linked discussion 28 was inaccessible through web tool and was not relied on.",
+    "source_family": "SageBio official competition"
+  },
+  {
+    "id": "R08",
+    "title": "Official repository revision listing",
+    "url": "https://huggingface.co/spaces/SageBio/rare-disease-real-kid-mva-hackathon-2026/tree/main",
+    "date": "2026-10-16 latest listed commit",
+    "retrieved_at": "2026-10-17",
+    "evidence_access": "Public tree listing read",
+    "observation": "Listing displayed main revision 60e1c30 and tabs revision 22726e3.",
+    "limit": "Short displayed hashes only; source fetched at mutable main, not cryptographically frozen snapshot.",
+    "source_family": "SageBio official competition"
+  }
+]

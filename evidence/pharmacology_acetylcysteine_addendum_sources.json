@@ -1,0 +1,113 @@
+{
+  "review": "Targeted acetylcysteine post-first-pass addendum",
+  "provenance": "Parent-directed source check after independent nomination frozen; not independent initial nomination",
+  "status": "Approval identity PASS; exposure and disease-rescue gates NOT PASSED",
+  "sources": [
+    {
+      "id": "P11",
+      "title": "ACETADOTE (acetylcysteine) US prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021539s021lbl.pdf",
+      "DOI": null,
+      "PMID": null,
+      "year": 2025,
+      "model": "Official FDA label",
+      "intervention": "Intravenous acetylcysteine",
+      "observation": "Approved acetaminophen-overdose antidote; total terminal half-life 5.6 h; binding 66-87%; molecular weight 163.2.",
+      "contrary_or_limit": "No chronic chromosome-instability indication; binding does not identify reduced-parent target-tissue exposure.",
+      "evidence_access": "Full FDA PDF, indication and section 12.3 inspected",
+      "human_pk": {
+        "total_terminal_half_life_hours": 5.6,
+        "protein_bound_percent_range": [
+          66,
+          87
+        ],
+        "molecular_weight_g_mol": 163.2
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P12",
+      "title": "Oxidative stress induces chromosomal instability through replication stress in fibroblasts from aged mice",
+      "url": "https://journals.biologists.com/jcs/article/136/11/jcs260688/316611/Oxidative-stress-induces-chromosomal-instability",
+      "DOI": "10.1242/jcs.260688",
+      "PMID": null,
+      "year": 2023,
+      "model": "Primary ear fibroblasts from young and aged C57BL/6J mice, 3% oxygen",
+      "intervention": "N-acetyl-L-cysteine",
+      "observation": "Live-imaged mitoses showed reduced lagging chromosomes and bridges; rescue incomplete.",
+      "contrary_or_limit": "Not BUB1B mutant; high nominal exposure, no human unbound/tissue bridge.",
+      "evidence_access": "Full primary article; Fig 4 and methods inspected",
+      "assay_exposure": {
+        "value": 5,
+        "unit": "mM nominal",
+        "duration_hours": 48,
+        "free_exposure_measured": false
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P13",
+      "title": "Sod1 deficiency in mouse oocytes during in vitro maturation increases chromosome segregation errors with a reduced BUBR1 at kinetochore",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39845481/",
+      "DOI": "10.1002/rmb2.12622",
+      "PMID": "39845481",
+      "year": 2025,
+      "model": "Sod1-null mouse oocytes during in-vitro maturation",
+      "intervention": "N-acetyl-L-cysteine in maturation medium",
+      "observation": "Primary abstract/search excerpts report fewer segregation errors with 500 micromolar NAC.",
+      "contrary_or_limit": "Different genotype and meiosis; detailed full text unstable; no NAC-to-BUBR1-localization rescue claim extracted.",
+      "evidence_access": "Primary PubMed/PMC search excerpts; publisher landing page, subsequent detail requests timed out",
+      "assay_exposure": {
+        "value": 500,
+        "unit": "micromolar nominal",
+        "duration_hours": null,
+        "duration_status": "not independently verified",
+        "free_exposure_measured": false
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P14",
+      "title": "The disposition and kinetics of intravenous N-acetylcysteine in patients with paracetamol overdosage",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2598989/",
+      "DOI": "10.1007/BF00558131",
+      "PMID": "2598989",
+      "year": 1989,
+      "model": "17 humans, 18 acetaminophen-poisoning episodes",
+      "intervention": "Acute intravenous NAC",
+      "observation": "Mean total-plasma early peak 554 mg/L; approximately 35 mg/L after 12 h.",
+      "contrary_or_limit": "Historical acute poisoning, transient total concentration, not free reduced NAC or sustained tissue exposure; no chronic-use extrapolation.",
+      "evidence_access": "Full primary abstract inspected",
+      "human_pk": {
+        "matrix": "total plasma NAC",
+        "early_mean_peak_mg_L": 554,
+        "later_mean_level_mg_L": 35,
+        "later_time_hours": 12,
+        "derived_early_mM": 3.3946,
+        "derived_later_mM": 0.21446,
+        "conversion_MW_g_mol": 163.2
+      },
+      "checked_date": "2026-10-17"
+    },
+    {
+      "id": "P15",
+      "title": "Pharmacokinetics and bioavailability of reduced and oxidized N-acetylcysteine",
+      "url": "https://link.springer.com/article/10.1007/BF01061422",
+      "DOI": "10.1007/BF01061422",
+      "PMID": "3360052",
+      "year": 1988,
+      "model": "Six healthy volunteers, crossover route comparison",
+      "intervention": "Oral and intravenous NAC",
+      "observation": "Reduced oral bioavailability 4.0%; total 9.1%; reduced intravenous terminal half-life 1.95 h versus total 5.58 h.",
+      "contrary_or_limit": "Small study; no chromosome-instability endpoint or relevant tissue measurements; reduced and total analytes not interchangeable.",
+      "evidence_access": "Primary publisher abstract inspected; full text subscription only",
+      "human_pk": {
+        "oral_bioavailability_reduced_percent": 4,
+        "oral_bioavailability_total_percent": 9.1,
+        "IV_reduced_half_life_hours": 1.95,
+        "IV_total_half_life_hours": 5.58
+      },
+      "checked_date": "2026-10-17"
+    }
+  ]
+}

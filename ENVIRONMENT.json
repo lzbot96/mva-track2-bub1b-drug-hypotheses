@@ -1,0 +1,7 @@
+{
+  "python_tested": "3.9.6",
+  "dependencies": "Python standard library only",
+  "network_required": false,
+  "patient_data_required": false,
+  "experiments_performed": false
+}

@@ -1,0 +1,129 @@
+{
+  "input_sha256": "c88fc658f4fb9f8fe1f2de48696ff5df51583d96023b1927d3e6b9fb50ce6a27",
+  "results": [
+    {
+      "id": "NAC_late",
+      "hypothesis_id": "NAC",
+      "assay_uM": 5000,
+      "human_total_uM": 214.4607843137255,
+      "matrix": "nominal culture / historical total plasma at 12 hours",
+      "comparable": false,
+      "note": "48-hour culture versus acute poisoning; total, reduced, free and tissue NAC differ. This is a nonclinical nominal ratio, not a safe target.",
+      "source_ids": [
+        "C01",
+        "P14",
+        "P11"
+      ],
+      "nominal_assay_to_human_total_ratio": 23.314285714285713,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    },
+    {
+      "id": "NAC_peak",
+      "hypothesis_id": "NAC",
+      "assay_uM": 5000,
+      "human_total_uM": 3394.6078431372553,
+      "matrix": "nominal culture / historical early mean total-plasma peak",
+      "comparable": false,
+      "note": "Transient acute IV peak; no sustained or chronic safety bridge.",
+      "source_ids": [
+        "C01",
+        "P14",
+        "P11"
+      ],
+      "nominal_assay_to_human_total_ratio": 1.4729241877256316,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    },
+    {
+      "id": "NAC_oocyte",
+      "hypothesis_id": "NAC",
+      "assay_uM": 500,
+      "human_total_uM": null,
+      "matrix": "nominal maturation medium / target-tissue exposure unavailable",
+      "comparable": false,
+      "note": "Different genotype, meiotic process and compartment; exact exposure duration not independently verified.",
+      "source_ids": [
+        "P13",
+        "P11"
+      ],
+      "nominal_assay_to_human_total_ratio": null,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": [
+        "human_total_uM"
+      ]
+    },
+    {
+      "id": "SIR_blood",
+      "hypothesis_id": "SIR",
+      "assay_uM": 0.0125,
+      "human_total_uM": 0.016407788230146575,
+      "matrix": "nominal culture / whole blood",
+      "comparable": false,
+      "note": "MW914.2g/mol; 15ng/mL whole blood, adult transplant with co-medication. Blood/plasma partition and protein binding preclude free-tissue comparison.",
+      "source_ids": [
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "nominal_assay_to_human_total_ratio": 0.7618333333333335,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    },
+    {
+      "id": "MET_low",
+      "hypothesis_id": "MET",
+      "assay_uM": 1000,
+      "human_total_uM": 7.74233508826262,
+      "matrix": "nominal culture / upper benchmark total plasma",
+      "comparable": false,
+      "note": "Usual plasma is below1microgram/mL; using metformin free-base MW129.16. Ratio is therefore a lower-bound benchmark, not an intracellular ratio.",
+      "source_ids": [
+        "P06",
+        "P05"
+      ],
+      "nominal_assay_to_human_total_ratio": 129.16,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    },
+    {
+      "id": "MET_high",
+      "hypothesis_id": "MET",
+      "assay_uM": 5000,
+      "human_total_uM": 7.74233508826262,
+      "matrix": "nominal culture / upper benchmark total plasma",
+      "comparable": false,
+      "note": "Same lower-bound interpretation; no unmeasured tissue-accumulation rescue.",
+      "source_ids": [
+        "P06",
+        "P05"
+      ],
+      "nominal_assay_to_human_total_ratio": 645.8,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    },
+    {
+      "id": "DAS_total",
+      "hypothesis_id": "DAS",
+      "assay_uM": 0.05,
+      "human_total_uM": 0.1684391713284564,
+      "matrix": "nominal 3-day culture / transient total plasma peak",
+      "comparable": false,
+      "note": "96%binding gives approximate free peak0.00674uM, not measured tissue exposure; half-life3\u20135h. Nominal total ratio does not pass exposure gate.",
+      "source_ids": [
+        "P09",
+        "P08"
+      ],
+      "nominal_assay_to_human_total_ratio": 0.29684306569343066,
+      "noncomparability_flag": true,
+      "interpretation": "nonclinical nominal ratio only; no free/tissue exposure or efficacy inference",
+      "missing_inputs": []
+    }
+  ]
+}
